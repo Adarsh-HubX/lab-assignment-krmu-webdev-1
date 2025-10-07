@@ -1,2 +1,5 @@
 # lab-assignment-krmu-webdev-1
-This is for my web development assignments.
+This repositry contains my Web Development assignments for the lab exercises.
+
+
+
