@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -9,14 +10,22 @@ body {
   line-height: 1.6;
   color: #333;
   background-color: #f8f8f8;
+  padding-top: 60px; 
 }
 
+html{
+  scroll-behavior: smooth;
+}
 /* HEADER */
 header {
-  background-color: #0d47a1;
+  background-color: #275498;
   color: white;
   text-align: center;
-  padding: 1rem 0;
+  padding: 2px 0;
+  position: fixed; 
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 header h1 {
@@ -24,9 +33,9 @@ header h1 {
   font-size: 1.8rem;
 }
 
-
 nav ul {
   list-style: none;
+  margin-top: 5px;
 }
 
 nav ul li {
@@ -48,7 +57,7 @@ nav ul li a:hover {
 #about {
   text-align: center;
   padding: 2rem 1rem;
-  background-color:#f2f2f2;
+  background-color: #f2f2f2;
 }
 
 .profile-container {
@@ -67,7 +76,6 @@ nav ul li a:hover {
   border-radius: 50%;
 }
 
-
 #about p {
   font-size: 1rem;
   color: #555;
@@ -75,7 +83,7 @@ nav ul li a:hover {
 
 /* SKILLS */
 #skills {
-  background-color:#f2f2f2;
+  background-color: #f2f2f2;
   padding: 2rem 1rem;
   text-align: center;
 }
@@ -98,12 +106,12 @@ nav ul li a:hover {
 
 #skills th {
   background-color: #0d47a1;
-  color:white;
+  color: white;
 }
 
 /* PROJECTS */
 #projects {
-  background-color:#f2f2f2;
+  background-color: #f2f2f2;
   padding: 2rem 1rem;
   text-align: center;
 }
@@ -113,10 +121,10 @@ nav ul li a:hover {
 }
 
 .project {
-  background-color:white;
+  background-color: white;
   border-radius: 8px;
   padding: 1rem;
-  width: 60%;
+  width: 50%;
   margin: 1rem auto;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
@@ -198,3 +206,5 @@ nav ul li a:hover {
 .back-to-top:hover {
   background-color: #003399;
 }
+
+
